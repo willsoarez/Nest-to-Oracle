@@ -2,6 +2,18 @@
 
 Easy solution to connect NestJS to OracleDB
 
+For the connection to occur, it is important to download InstantClient, in the latest version, and follow the settings below!
+
+#### Link to Download InstantCliente Oracle:
+
+https://www.oracle.com/br/database/technologies/instant-client/downloads.html
+
+- In the /src folder, create another /dataBase folder.
+- Inside the new folder, create two files, "oracle.module.ts", "oracle.controller.ts" and "oracle.service.ts"
+- install the dependencies 'npm i @nestjs/common @nestjs/cli @types/oracledb @nestjs/core oracledb'
+- Within each new file created, reproduce the same code, contained in this repository
+- Inside the root directory, don't forget to import the "OracleModule" Module into "app.module.ts" in "imports:[]"
+
 # Configure PATH InstantClient Oracle
 
 ### On Windows
