@@ -2,16 +2,16 @@
 
 Easy solution to connect NestJS to OracleDB
 
-#### Configure PATH InstantClient Oracle
+# Configure PATH InstantClient Oracle
 
 ### On Windows
 
-# Find the Instant Client Path.:
+#### Find the Instant Client Path.:
 
 - Determine the full path to the directory where the Instant Client is installed. 
 - For example, if it's installed at C:\instantclient_21_9, that would be the path.
 
-# Configure the PATH.:
+#### Configure the PATH.:
 
 - Open the Control Panel.
 - Go to "System and Security" -> "System" -> "Advanced system settings."
@@ -20,24 +20,24 @@ Easy solution to connect NestJS to OracleDB
 - Click "New" and add the full path to the Instant Client directory.
 - Click "OK" to close the windows.
 
-# Restart the Terminal.:
+#### Restart the Terminal.:
 
 - Open a new terminal or restart any existing terminal for the changes to take effect.
 
 ### On Linux or macOS
 
-# Find the Instant Client Path.:
+#### Find the Instant Client Path.:
 
 - Determine the full path to the directory where the Instant Client is installed. 
 - For example, if it's installed at C:\instantclient_21_9, that would be the path.
 
-# Configure the PATH (Temporary):
+#### Configure the PATH (Temporary):
 
 - Open a terminal and run the following command, replacing /path/to/your/instantclient with the actual path to the Instant Client:
 
 export PATH=$PATH:/path/to/your/instantclient
 
-# Configure the PATH (Permanent):
+#### Configure the PATH (Permanent):
 
 - To make the changes permanent, you typically need to add the command to your shell's profile file. The file may be ~/.bashrc, ~/.bash_profile, ~/.zshrc, or something similar depending on your shell.
 
